@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beard Papa's</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+    <link rel="icon" type="image/x-icon" href="../" />
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2"></script>
+  </head>
+  <body>
+    <p class="bg-black text-white text-center">✨<strong>Get FREE PUFFS WITH OUR LOYALTY PROGRAM !</strong>✨ <strong>Save 10% off your first order! CLICK HERE TO JOIN!</strong>✨</p>
+    <nav class="bg-gray-100 py-4">
+      <div class="container mx-auto flex justify-center items-center">
+        <a href="#">
+          <img class="px-3" src="/img/logo.png" alt="Beard Papa's Logo" width="100" />
+        </a>
+        <ul class="flex flex-wrap justify-center items-center space-x-6">
+          <li><a href="index.html" class="text-gray-800 hover:text-black">Home</a></li>
+          <li><a href="biodata.html" class="text-gray-800 hover:text-black">Biodata</a></li>
+          <li><a href="contact_us.html" class="text-gray-800 hover:text-black">Contact</a></li>
+          <li><a href="https://fti.unai.edu" target="_blank" class="text-gray-800 hover:text-black">FTI UNAI</a></li>
+          <li><a href="https://www.unai.edu" target="_blank" class="text-gray-800 hover:text-black">UNAI Website</a></li>
+          <li><a href="download.html" class="text-gray-800 hover:text-black">Applikasi shopee mod</a></li>
+          <li><a href="#" class="border border-black px-4 py-2 rounded-lg text-black hover:bg-black hover:text-white transition duration-300">Order Now</a></li>
+          <!-- Add more navigation links -->
+        </ul>
+      </div>
+    </nav>
+    <div class="mx-auto">
+      <div class="flex justify-center">
+        <div class="w-full">
+          <div class="relative">
+            <img src="/img/catering.jpg" class="w-full" alt="Background Image" />
+            <div class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50">
+              <h2 class="text-white text-3xl md:text-4xl lg:text-5xl">🎄December catering deal!🎄</h2>
+              <h1 class="text-white text-4xl md:text-5xl lg:text-6xl">FREE 12 PACK OF PUFFS!</h1>
+              <a href="#" class="btn-outline-light-btn-transparent text-white mt-3 px-6 py-2 border border-white rounded-md hover:bg-white hover:text-black transition duration-300">FIND A STORE TODAY</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto">
+      <div class="flex flex-col lg:flex-row">
+        <div class="lg:w-1/2">
+          <img src="/img/image-snowy-sugar-puff-banner.png" alt="Snowy Sugar Puff" class="w-full" />
+        </div>
+        <div class="lg:w-1/2 lg:m-auto bg-indigo-700 text-white rounded-lg p-6 lg:p-3 mt-4 lg:mt-auto">
+          <h1 class="text-2xl lg:text-4xl font-bold">Snowy Sugar Puff</h1>
+          <p class="mt-4">The Snowy Sugar Puff ☃️ December's flavor starts with a freshly baked éclair add vanilla frosting with our custard filling and a hint of eggnog! See store for more. (*participation varies)</p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container mx-auto py-6">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div class="flex justify-center lg:justify-end">
+          <img src="/img/merch.jpg" alt="Snowy Sugar Puff" class="max-w-full h-auto" />
+        </div>
+        <div class="flex flex-col justify-center lg:justify-start">
+          <div class="text-black p-3 md:my-20 my-2">
+            <h1 class="text-2xl lg:text-4xl font-bold">Free Shipping on all Merchandise!*</h1>
+            <p class="mt-4">For a limited time get your new Beard Papa's Official Merchandise. Hats, shirts, mugs, and a new tote bag are waiting - ALL WITH FREE SHIPPING! (*orders of $35 or more)</p>
+            <h4 class="mt-4">USE CODE: FREESHIP</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-4 mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div class="col-span-1">
+          <div class="card">
+            <img src="/img/1.jpg" class="card-img-top" alt="Image 1" />
+          </div>
+        </div>
+        <div class="col-span-1">
+          <div class="card">
+            <img src="/img/2.jpg" class="card-img-top" alt="Image 2" />
+          </div>
+        </div>
+        <div class="col-span-1">
+          <div class="card">
+            <img src="/img/3.jpg" class="card-img-top" alt="Image 3" />
+          </div>
+        </div>
+        <div class="col-span-1 pb-5">
+          <div class="card">
+            <img src="/img/4.jpg" class="card-img-top" alt="Image 4" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="mx-auto max-w-4xl p-5 text-center">
+      <div class="p-5">
+        <h1 class="text-4xl p-2 font-bold">ABOUT US</h1>
+        <p class="text-center">
+          Since 1999, Beard Papa's has been baking the world's best cream puffs. We began in Japan and have expanded to over 450 stores in 15 countries and territories! We are committed to bringing you a pastry that is super oishii!
+          (delicious!).
+        </p>
+      </div>
+    </div>
+    <div class="mx-44 my-20">
+      <div
+        x-data="{
+      images: [
+        '/img/slide1.jpg',
+        '/img/slide2.jpg',
+        '/img/slide3.jpg'
+      ],
+      currentIndex: 0,
+      maxIndex: 2,
+      isPaused: false,
+      interval: null,
+      changeSlide() {
+        this.currentIndex = (this.currentIndex + 1) % this.images.length;
+      },
+      startInterval() {
+        this.interval = setInterval(() => {
+          if (!this.isPaused) {
+            this.changeSlide();
+          }
+        }, 3000); // Change image every 3 seconds
+      },
+      pauseSlide() {
+        this.isPaused = true;
+      },
+      playSlide() {
+        this.isPaused = false;
+      },
+      goToPrev() {
+        this.currentIndex = (this.currentIndex - 1 + this.images.length) % this.images.length;
+        this.playSlide();
+      },
+      goToNext() {
+        this.changeSlide();
+        this.playSlide();
+      },
+      resetInterval() {
+        clearInterval(this.interval);
+        this.startInterval();
+      }
+    }"
+        x-init="startInterval()"
+        @mouseenter="pauseSlide()"
+        @mouseleave="playSlide()"
+        @click="resetInterval()"
+        class="w-full relative overflow-hidden"
+      >
+        <img :src="images[currentIndex]" alt="Slideshow Image" class="w-full object-contain transition-opacity duration-500" />
+
+        <button @click="goToPrev()" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white rounded-full p-2 opacity-50 hover:opacity-75 transition-opacity duration-300">&lt;</button>
+
+        <button @click="goToNext()" class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white rounded-full p-2 opacity-50 hover:opacity-75 transition-opacity duration-300">&gt;</button>
+      </div>
+    </div>
+    <div class="mx-32 py-5">
+      <h2 class="text-3xl font-bold pt-4">Unique Featured Flavors & Desserts</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center mt-8">
+        <div class="max-w-xs mx-auto">
+          <img src="/img/vanilla+custard_small.png" alt="Original Vanilla" class="max-w-full h-auto mx-auto" />
+          <h4 class="text-xl font-semibold mt-4">Original Vanilla</h4>
+          <p class="mt-2">This classic favorite made from imported vanilla beans, rich custard, and fresh whipped cream. Discover why it's our signature flavor!</p>
+        </div>
+        <div class="max-w-xs mx-auto">
+          <img src="/img/oreo_Small.png" alt="OREO Cookie Crumble Eclair" class="max-w-full h-auto mx-auto" />
+          <h4 class="text-xl font-semibold mt-4">OREO® Cookie Crumble Eclair</h4>
+          <p class="mt-2">Dipped in white chocolate then covered with OREO® crumble, this shell is a fan favorite!</p>
+        </div>
+        <div class="max-w-xs mx-auto">
+          <img src="/img/fondant_small.png" alt="Chocolate Fondant" class="max-w-full h-auto mx-auto" />
+          <h4 class="text-xl font-semibold mt-4">Chocolate Fondant</h4>
+          <p class="mt-2">Warm and moist chocolate cake with a core of rich, creamy chocolate filling. Chocolate lovers rejoice!</p>
+        </div>
+      </div>
+      <p class="text-center mt-8 text-sm">OREO is a trademark of Mondelēz International group, used under license.</p>
+    </div>
+    <!-- Your main content goes here -->
+
+    <footer class="Footer py-5 bg-yellow-300" role="contentinfo" id="footer">
+      <div class="Footer-inner clear mx-auto max-w-screen-xl">
+        <div class="grid grid-cols-12 gap-4" id="footerBlocksTop">
+          <div class="col-span-12"></div>
+        </div>
+
+        <div class="Footer-middle">
+          <div class="grid grid-cols-12 gap-4" id="footerBlocksMiddle">
+            <div class="col-span-6">
+              <div class="block">
+                <h3 class="text-lg font-bold">About us</h3>
+                <p class="mt-2">
+                  Since 1999, Beard Papa’s has been creating the world’s best cream puffs. We began in Japan and have expanded to over 450 stores in 15 countries and territories. We are committed to bring a smile and Japanese oishii!
+                  (delicious!) to the world.
+                </p>
+              </div>
+            </div>
+            <div class="col-span-3">
+              <div class="grid grid-cols-3">
+                <div class="col-span-3">
+                  <h3 class="text-lg font-bold">Menu</h3>
+                  <p><a href="/menu" class="text-blue-500">View all of our products</a></p>
+                  <h3 class="text-lg font-bold">Franchise Opportunity</h3>
+                  <p><a href="https://www.beardpapas.com/franchise" class="text-blue-500">Great support! Low startup cost</a></p>
+                </div>
+                <div class="col-span-3">
+                  <h3 class="text-lg font-bold">Order Online</h3>
+                  <p><a href="https://www.beardpapas.com/order-online#/" class="text-blue-500">Get points toward product</a></p>
+                  <h3 class="text-lg font-bold">Employment opportunities</h3>
+                  <p><a href="https://beardpapas.com/employment" class="text-blue-500">Apply today!</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-2">
+              <div class="block">
+                <h3 class="text-lg font-bold">Catering</h3>
+                <p><a href="/catering" class="text-blue-500">Get your quote today</a></p>
+              </div>
+              <div class="block">
+                <div class="social-icons">
+                  <a href="https://www.facebook.com/BeardPapasUSA/" target="_blank" class="text-blue-500" aria-label="FACEBOOK">
+                    <img src="https://static1.squarespace.com/static/600a96cbf8894d79eb1e1b1f/t/60225be7cded6d2a78daa2ff/1612864487930/facebook.png" style="max-width: 35px" role="presentation" alt="SM" />FACEBOOK</a
+                  >
+                  <br />
+                  <a href="https://www.instagram.com/beardpapas/" target="_blank" class="text-blue-500" aria-label="INSTAGRAM">
+                    <img src="https://static1.squarespace.com/static/600a96cbf8894d79eb1e1b1f/t/60225beeedfe235c98bbfdfe/1612864494570/instagram.png" style="max-width: 35px" role="presentation" alt="SM" />INSTAGRAM</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-12 gap-4" id="footerBlocksBottom">
+          <div class="col-span-12">
+            <!-- Content -->
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
